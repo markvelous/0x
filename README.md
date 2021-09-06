@@ -4,12 +4,13 @@ PT7210027 Mark Tan, in fulfilment of SGBT4 Intermediate Blockchain module.
 
 This is an OTB 0x Launch Kit that can set up a personal 0x-based cryptoasset exchange in minutes. It has an elegant UI making it easy to monitor and manage orders.
 
-![](./03home.png)
-
-The frontend is not uploaded on Netlify. A live demo is hosted on [Kovan Testnet Demo] (http://v3-kovan-demo.s3-website-us-east-1.amazonaws.com/#/erc20/)
+![](./0xhome.png)
 
 
-## ⚠️ Warning ️
+The frontend is not uploaded on Netlify. A live demo is hosted on [Kovan Testnet Demo](http://v3-kovan-demo.s3-website-us-east-1.amazonaws.com/#/erc20/)
+
+
+## Warning ⚠️ ️
 
 This is for class demo only. The Launch Kit is no longer maintained by 0x. Any serious attempt to create an offchain DEX should consider forking or running a [Standard Relayer API](https://0x.org/docs/api#sra) instance using the [0x API](https://github.com/0xProject/0x-api) instead to avoid deprecation issues.
 
@@ -37,13 +38,13 @@ install node.js > 0.8x (node -v)
 ```
 git clone https://github.com/0xProject/0x-launch-kit
 ```
-`Run the wizard and load the Docker image`
+Run the wizard and load the Docker image
 
 ```
 npx @0x/launch-kit-wizard && docker-compose up
 ```
 
-Once the image is built, open the browser to see the exchange instantly. It will be running at the port specified in the wizard. The default is http://localhost:3001/
+Once the image is built, open the browser to see the exchange instantly. It will be running at the port specified in the wizard. The default is [localhost:3001](http://localhost:3001/)
 
 There is further instructions for [using the Launch Kit with Ganache](https://github.com/0xProject/0x-launch-kit/wiki/FAQ#development-with-ganache) and for [deploying to AWS](https://github.com/0xProject/0x-launch-kit/wiki/FAQ#aws)
 

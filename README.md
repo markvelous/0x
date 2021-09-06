@@ -41,10 +41,27 @@ git clone https://github.com/0xProject/0x-launch-kit
 Run the wizard and load the Docker image
 
 ```
+docker run -d -p 80:80 docker/getting-started
+```
+
+```
 npx @0x/launch-kit-wizard && docker-compose up
 ```
 
-Once the image is built, open the browser to see the exchange instantly. It will be running at the port specified in the wizard. The default is [localhost:3001](http://localhost:3001/)
+```bash
+Follow the instructions:
+- Select the type of token
+- Select network
+- Enter the RPC URL (use infura or alchemy)
+- Enter the backend Relayer (use default)
+- Enter the backend websocket (use IP address to avoid issues)
+- Enter wallet account
+- Set the maker/taker fees (or leave them as 0)
+- Choose the theme
+- Enter the frontend server port (use the default)
+```
+
+Once the image is built, open the browser to see the exchange. It will be running at the port specified in the wizard. The default is [localhost:3001](http://localhost:3001/)
 
 There is further instructions for [using the Launch Kit with Ganache](https://github.com/0xProject/0x-launch-kit/wiki/FAQ#development-with-ganache) and for [deploying to AWS](https://github.com/0xProject/0x-launch-kit/wiki/FAQ#aws)
 

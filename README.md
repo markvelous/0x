@@ -4,6 +4,11 @@ PT7210027 Mark Tan, in fulfilment of SGBT4 Intermediate Blockchain module.
 
 This is an OTB 0x Launch Kit that can set up a personal 0x-based cryptoasset exchange in minutes. It has an elegant UI making it easy to monitor and manage orders.
 
+![](./03home.png)
+
+The frontend is not uploaded on Netlify. A live demo is hosted on [Kovan Testnet Demo] (http://v3-kovan-demo.s3-website-us-east-1.amazonaws.com/#/erc20/)
+
+
 ## ⚠️ Warning ️
 
 This is for class demo only. The Launch Kit is no longer maintained by 0x. Any serious attempt to create an offchain DEX should consider forking or running a [Standard Relayer API](https://0x.org/docs/api#sra) instance using the [0x API](https://github.com/0xProject/0x-api) instead to avoid deprecation issues.
@@ -12,6 +17,7 @@ This is for class demo only. The Launch Kit is no longer maintained by 0x. Any s
 | :--------------------------------------------------------------: | :---------------------------------------------------------------: |
 | ![](https://s3.eu-west-2.amazonaws.com/0x-wiki-images/erc20.png) | ![](https://s3.eu-west-2.amazonaws.com/0x-wiki-images/erc721.png) |
 
+The source codes are at https://github.com/0xProject/0x-launch-kit
 ## Quick Start
 
 Install all dependencies below:

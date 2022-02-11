@@ -1,7 +1,5 @@
 # Instant DEX
 
-PT7210027 Mark Tan, in fulfilment of SGBT4 Intermediate Blockchain module.
-
 This is an OTB 0x Launch Kit that can set up a personal 0x-based cryptoasset exchange in minutes. It has an elegant UI making it easy to monitor and manage orders.
 
 ![](./0xhome.png)
